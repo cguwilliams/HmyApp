@@ -8,7 +8,6 @@ static3==0.5.1
 wsgiref==0.1.2
 requests==2.3.0
 flask==0.8
-numpy==1.6.2
 pandas==0.8.1
 matplotlib
 mpl_toolkits

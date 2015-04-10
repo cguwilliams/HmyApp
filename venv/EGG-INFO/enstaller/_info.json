@@ -1,0 +1,14 @@
+{
+  "arch": "amd64", 
+  "build": 1, 
+  "ctime": "Thu Apr  9 20:51:32 2015", 
+  "hook": false, 
+  "key": "enstaller-4.8.1-1.egg", 
+  "name": "enstaller", 
+  "osdist": null, 
+  "packages": [], 
+  "platform": "darwin", 
+  "python": "2.7", 
+  "type": "egg", 
+  "version": "4.8.1"
+}
