@@ -1,7 +1,6 @@
 from flask import Flask
-from mpl_toolkits.basemap import Basemap
-import matplotlib.pyplot as plt
-import numpy as np
+import numpy
+import matplotlib
 
 app = Flask(__name__)
 
@@ -9,9 +8,9 @@ app = Flask(__name__)
 def hello():
     return 'Hello World! Hello Github'
 
-map = Basemap(projection='ortho', lat_0=50, lon_0=-100,
-              resolution='l', area_thresh=1000.0)
- 
-map.drawcoastlines()
- 
-plt.show()
+def wave():
+    x = linspace(0, 10)
+    y = sin(x)
+    plot(x, y)
+    
+wave()
